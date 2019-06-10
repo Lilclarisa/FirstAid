@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="16dp"
+    android:paddingTop="16dp"
+    android:paddingBottom="16dp"
+    android:paddingRight="16dp"
+    android:background="@color/colorBackground"
+    tools:context=".MainActivity">
+
+
+    <LinearLayout
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="6dp"
+        tools:layout_editor_absoluteY="0dp">
+
+        <TextView
+            android:id="@+id/textViewSignup"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="25dp"
+            android:text="USER REGISTRATION"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+            android:layout_gravity="center"
+            android:textColor="@color/colorTextView"
+            />
+
+
+        <!-- <EditText
+             android:layout_margin="14dp"
+             android:inputType="textPersonName"
+             android:layout_height="wrap_content"
+             android:layout_width="match_parent"
+             android:id="@+id/editTextName"
+             android:hint="Enter your name"
+             android:textColorHint="@color/colorAccent"
+             android:textColor="@color/colorTextView"
+             android:textSize="15sp"
+             />
+
+
+         <EditText
+             android:layout_margin="14dp"
+             android:inputType="phone"
+             android:layout_height="wrap_content"
+             android:layout_width="match_parent"
+             android:id="@+id/editTextPhone"
+             android:hint="Phone number"
+             android:textColorHint="@color/colorAccent"
+             android:textColor="@color/colorTextView"
+             android:textSize="15sp"
+             /> -->
+
+
+           <EditText
+               android:layout_margin="14dp"
+               android:inputType="textEmailAddress"
+               android:layout_height="wrap_content"
+               android:layout_width="match_parent"
+               android:id="@+id/editTextEmail"
+               android:hint="Email address"
+               android:textColorHint="@color/colorAccent"
+               android:textColor="@color/colorTextView"
+               android:textSize="15sp"
+               />
+       <!--  <TextView
+             android:id="@+id/textBloodGroup"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:layout_margin="14dp"
+             android:text="Blood Group"
+             android:textSize="15sp"
+             android:layout_gravity="center"
+             android:textColor="@color/colorTextView"
+             />
+
+         <Spinner
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:id="@+id/blood_group_spinner"
+             android:entries="@array/blood_group"
+             android:prompt="@string/blood_prompt"
+
+
+             ></Spinner> -->
+
+         <EditText
+             android:layout_margin="14dp"
+             android:inputType="textPassword"
+             android:layout_height="wrap_content"
+             android:layout_width="match_parent"
+             android:id="@+id/editTexPassword"
+             android:hint=" Password"
+             android:textColorHint="@color/colorAccent"
+             android:textColor="@color/colorTextView"
+             android:textSize="15sp"
+             />
+         <Button
+             android:layout_margin="14dp"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:text="SIGN UP"
+             android:id="@+id/buttonRegister"
+             />
+ <TextView
+     android:textAlignment="center"
+     android:id="@+id/textViewSignIn"
+     android:text="@string/sign_in"
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     android:textColor="@color/colorTextView"
+     android:textStyle="bold"
+     android:textSize="14sp"
+     />
+     </LinearLayout>
+
+ </RelativeLayout>

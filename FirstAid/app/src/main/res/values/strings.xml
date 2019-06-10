@@ -1,0 +1,49 @@
+<resources>
+    <string name="app_name">First Aid</string>
+    <string name="title_activity_login">Sign in</string>
+    <string name="sign_up">Sign up</string>
+    <string name="sign_in">Have an account? Sign in</string>
+    <string name="forgot_password">Forgot Password?</string>
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password (optional)</string>
+    <string name="action_sign_in_short">Sign in</string>
+
+    <string name="title_activity_main_menu">MainMenu</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="title">About</string>
+    <string name="image_description"> Sipping soda may help prevent vomiting.
+        Don\’t eat fried, greasy, spicy, or sweet foods.
+        Don\’t take anti-nausea or anti-diarrhea medication without asking your doctor.
+        They may make some kinds of diarrhea worse.
+        Your doctor may give you anti-nausea medication if you are at risk of being dehydrated. </string>
+    <string name="title_activity_home">Home</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+   <!-- <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="blood_prompt">Blood Group</string>
+    <string name="rhesus_prompt">Rhesus</string>
+    <string name="gender_prompt">Gender</string>
+
+    <string-array name="blood_group">
+        <item>A</item>
+        <item>B</item>
+        <item>AB</item>
+        <item>O</item>
+    </string-array>
+    <string-array name="gender">
+        <item>Male</item>
+        <item>Female</item>
+    </string-array>
+
+    <string-array name="rhesus">
+        <item>-ve</item>
+        <item>+ve</item>
+
+    </string-array> -->
+</resources>

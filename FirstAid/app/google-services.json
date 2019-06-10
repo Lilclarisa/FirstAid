@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "392974922738",
+    "firebase_url": "https://first-aid-app-5ae17.firebaseio.com",
+    "project_id": "first-aid-app-5ae17",
+    "storage_bucket": "first-aid-app-5ae17.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:392974922738:android:b926bda15cbf9603",
+        "android_client_info": {
+          "package_name": "com.example.firstaid"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "392974922738-hihq8ulk6ml1861ahbg9jbb9mvabaiag.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB7dmFI-bxTX91Gd0p78qsUKF3Jt5LNeG4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "392974922738-hihq8ulk6ml1861ahbg9jbb9mvabaiag.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
